@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOTHAWORN Nuttapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Page</title>
+    <link rel="stylesheet" href="../css/wholesite.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="screen">
+    <style type="text/css" media="print">
+        label {
+            display: block;
+            line-height: 2;
+        }
+
+        header,nav,footer {
+            display: none;
+        }
+
+        div fieldset {
+            page-break-before: always;
+            margin-left: 20%;
+            margin-right: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../image/filmreel.png" alt="the logo of Impact Cinema" title="displayed logo">
+        <h1>IMPACT CINEMA</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="nowshowing.html">NOW SHOWING</a></li>
+            <li><a href="ticket.html">TICKET</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <fieldset>
+            <legend>Ticket 1</legend>
+            <label>Cinema:</label>
+            <input type="text" name="cinema" value="Wong Tai Sin" readonly>
+            <label>Movie:</label>
+            <input type="text" name="movie" value="Hot & Spicy Barbecue" readonly>
+            <label>Date Time:</label>
+            <input type="text" name="time" value="12 April 2021 Sun-9:00 AM" readonly>
+            <label>House No.:</label>
+            <input type="text" name="house" value="1" readonly>
+            <label>Seat:</label>
+            <input type="text" name="seat" value="A1" readonly>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ticket 2</legend>
+            <label>Cinema:</label>
+            <input type="text" name="cinema" value="Wong Tai Sin" readonly>
+            <label>Movie:</label>
+            <input type="text" name="movie" value="Premium Casablanca" readonly>
+            <label>Date Time:</label>
+            <input type="text" name="time" value="12 April 2021 Sun-9:30 AM" readonly>
+            <label>House No.:</label>
+            <input type="text" name="house" value="3" readonly>
+            <label>Seat:</label>
+            <input type="text" name="seat" value="A2" readonly>
+        </fieldset>
+    </div>
+
+    <footer>
+        <p>2020 @Copyright of resources belong to corresponding copyright owners - fair use for education purpose</p>
+        <a href="home.html">Home</a>
+        <a href="design.html" target="_blank">Design</a>
+    </footer>
+
+    <script src="../javascript/print.js"></script>
+</body>
+
+</html>

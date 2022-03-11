@@ -1,0 +1,35 @@
+div ul {
+    list-style-type: none;
+}
+
+div section:nth-child(1) {
+    float: left;
+    padding: 140px 100px 120px 0px;
+}
+
+div section:nth-child(2) {
+    margin-top: 20px;
+}
+
+form input, form select {
+    margin-bottom: 10px;
+    display: block;
+}
+
+form select {
+    float: left;
+    margin-right: 25px;
+}
+
+form img {
+    float: left;
+    margin-right: 25px
+}
+
+div section div {
+    margin-bottom: 60px;
+}
+
+div section:last-child dt{
+    margin-top: 160px;
+}

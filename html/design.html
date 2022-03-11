@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOTHAWORN Nuttapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Page</title>
+    <link rel="stylesheet" href="../css/design.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <h1>Behind this Website</h1>
+        <h2>Developer: NAOTHAWORN Nuttapat 55314194</h2>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+    </nav>
+
+    <section>
+        <h3>Page Design</h3>
+        <div class="CW1">
+            <h4>CW1</h4>
+            <dl>
+                <dt>Common information in all pages (except Design Page)</dt>
+                <dd>
+                    <ul>
+                        <li>a) img tag is used to get the logo image, h1 tag is used to show the cinema's name, and
+                            header
+                            tag is used to group those content as the header.</li>
+                        <li>b) a tags are used to provide hyperlinks to other pages, and nav tag is used to group a tags
+                            together as main menu for navigation.</li>
+                        <li>c) p tag is used to give copyright information, a tags are used to provide hyperlinks to
+                            other
+                            pages, and footer tag is used to group those tags together as the footer.</li>
+                    </ul>
+                </dd>
+
+                <dt>Home Page</dt>
+                <dd>
+                    <ul>
+                        <li>d) video tag is used to get video file, h3 tag is used to show movie's name and information,
+                            and
+                            section tag is used to group those tags together.</li>
+                        <li>e) h3 tag is used to show the topic, dl tag is used to create a list containing 2 dt tags
+                            for 2
+                            sub-blocks, li tags are used to list each movie's information which has img tags to get
+                            image
+                            files,
+                            and section tag is used to group those tags together.</li>
+                    </ul>
+                </dd>
+
+                <dt>Now Showing Page</dt>
+                <dd>
+                    <ul>
+                        <li>f) label tag is used to tell the purpose of a particular input, and select tag is used to
+                            provide
+                            the cinema drop down list.</li>
+                        <li>g) ul tag, and li tag inside are used to create a list of movies, input tag is used to show
+                            movie's
+                            name in the grid(read only) and create Buy Ticket button(type submit), img tag is used to
+                            get
+                            image
+                            file, select tag is used to provide the show time and house drop down list, form tag with
+                            get
+                            method
+                            is used to send data to Ticket Page attached to url, and section tag is used to group f),g)
+                            together.</li>
+                        <li>h) dl tag is used to create a list, dt tag is used to give the title; Cinema Locations, li
+                            tags
+                            are
+                            used to list the map(img tag) and address(p tag), and section tag is used to group those
+                            tags
+                            together.</li>
+                    </ul>
+                </dd>
+
+                <dt>Ticket Page</dt>
+                <dd>
+                    <ul>
+                        <li>j) h3 tags are used to show information of selected movie.</li>
+                        <li>k) table tag is used to create the seat plan with tr tag to create each row, td tag to
+                            create
+                            the
+                            screen area and each seat in a row, and tbody to group tr and td tags together.</li>
+                        <li>l) p tag is used to tell selected seat, input tag is used to create Confirm button(type
+                            submit),
+                            fieldset tag is used to group those information into a form, legend tag is used to give
+                            description
+                            of the fieldset, form tag is used to send data to Print Page (for future assignments), and
+                            section
+                            tag is used to group j),k),l) together.</li>
+                    </ul>
+                </dd>
+
+                <dt>Print Page</dt>
+                <dd>
+                    <ul>
+                        <li>m) label tag is used to tell the purpose of a particular input, input tag is used to show
+                            information in the grid(read only), section tag is used to group each ticket's information
+                            together
+                            and separate two tickets.</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="CW2">
+            <h4>CW2</h4>
+            <dl>
+                <dt>Requirement No.</dt>
+                <dd>
+                    <ul>
+                        <li>17) Overall Theme Layout Sketch Diagram</li>
+                        <img src="../image/sketch.jpg" alt="the sketch diagram" title="displayed sketch diagram">
+                        <li>18) If css of design page is counted, then 6 style sheets and 2 groups of styles(embedded
+                            style
+                            and external style) are used. Following the application functions approach, wholesite.css is
+                            the
+                            highest level; it controls common layout, color scheme, and font types for all pages.
+                            Other 5 style sheets are in charge of the layout and requirements for a particular page. One
+                            embedded style is used in print page to meet the print preview requirement because this css
+                            script handles very specific requirement and its length is short.</li>
+                        <li>19) 2 CSS3 features are found in wholesite.css; transition(line 31-37) and round border
+                            corner(line 50).</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+
+        <div class="CW3">
+            <h4>CW3</h4>
+            <dl>
+                <dt>Event handler</dt>
+                <dd>
+                    <ul>
+                        <li>setup in Javascript: For seat booking (ticket.js line 69) </li>
+                        <li>setup in HTML: When a movie's thumbnail is clicked, that movie will be shown (home.js line
+                            13,22).
+                            When a branch is chosen, the detail of that branch will be shown (nowshowing.js line 6).
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </section>
+
+    <section>
+        <h3>Acknowledgement</h3>
+        <div class="CW1">
+            <h4>CW1</h4>
+            <ul>
+                <li><a href="https://www.google.com/maps/@22.3408605,114.1925572,18z?hl=en"
+                        target="_blank">https://www.google.com/maps/@22.3408605,114.1925572,18z?hl=en</a></li>
+                <li><a href="https://www.google.com/maps/@22.3826178,114.1891927,18z?hl=en"
+                        target="_blank">https://www.google.com/maps/@22.3826178,114.1891927,18z?hl=en</a></li>
+                <li><a href="https://www.google.com/maps/@22.337741,114.1734466,19z?hl=en"
+                        target="_blank">https://www.google.com/maps/@22.337741,114.1734466,19z?hl=en</a></li>
+                <li><a href="https://www.w3schools.com/tags/att_input_readonly.asp"
+                        target="_blank">https://www.w3schools.com/tags/att_input_readonly.asp</a></li>
+            </ul>
+        </div>
+
+        <div class="CW2">
+            <h4>CW2</h4>
+            <ul>
+                <li><a href="https://www.w3schools.com/colors/colors_monochromatic.asp"
+                        target="_blank">https://www.w3schools.com/colors/colors_monochromatic.asp</a></li>
+                <li><a href="https://www.w3schools.com/cssref/pr_class_cursor.asp"
+                        target="_blank">https://www.w3schools.com/cssref/pr_class_cursor.asp</a></li>
+                <li><a href="https://www.w3schools.com/css/css_table.asp"
+                        target="_blank">https://www.w3schools.com/css/css_table.asp</a></li>
+                <li><a href="https://www.w3schools.com/css/css3_mediaqueries.asp"
+                        target="_blank">https://www.w3schools.com/css/css3_mediaqueries.asp</a></li>
+                <li><a href="https://www.w3schools.com/cssref/pr_print_pageba.asp"
+                        target="_blank">https://www.w3schools.com/cssref/pr_print_pageba.asp</a></li>
+            </ul>
+        </div>
+
+        <div class="CW3">
+            <h4>CW3</h4>
+            <ul>
+                <li><a href="https://stackoverflow.com/questions/33866177/losing-text-after-a-space-setting-the-value-in-a-new-field"
+                        target="_blank">https://stackoverflow.com/questions/33866177/losing-text-after-a-space-setting-the-value-in-a-new-field</a></li>
+                <li><a href="https://www.w3schools.com/cssref/sel_last-child.asp"
+                        target="_blank">https://www.w3schools.com/cssref/sel_last-child.asp</a></li>
+                <li><a href="https://stackoverflow.com/questions/3487263/how-to-use-onclick-or-onselect-on-option-tag-in-a-jsp-page"
+                        target="_blank">https://stackoverflow.com/questions/3487263/how-to-use-onclick-or-onselect-on-option-tag-in-a-jsp-page</a></li>
+                <li><a href="https://stackoverflow.com/questions/39624581/javascript-replace-characters-of-an-element-in-an-array"
+                        target="_blank">https://stackoverflow.com/questions/39624581/javascript-replace-characters-of-an-element-in-an-array</a></li>
+                <li><a href="https://stackoverflow.com/questions/16576983/replace-multiple-characters-in-one-replace-call"
+                        target="_blank">https://stackoverflow.com/questions/16576983/replace-multiple-characters-in-one-replace-call</a></li>
+                <li><a href="https://www.w3schools.com/jsref/jsref_slice_string.asp#:~:text=The%20slice()%20method%20extracts,position%201%2C%20and%20so%20on."
+                        target="_blank">https://www.w3schools.com/jsref/jsref_slice_string.asp#:~:text=The%20slice()%20method%20extracts,position%201%2C%20and%20so%20on.</a></li>
+                <li><a href="https://stackoverflow.com/questions/60124279/addeventlistener-for-only-one-time-on-any-one-element-in-foreach-loop-javascript"
+                        target="_blank">https://stackoverflow.com/questions/60124279/addeventlistener-for-only-one-time-on-any-one-element-in-foreach-loop-javascript</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>2020 @Copyright of resources belong to corresponding copyright owners - fair use for education purpose</p>
+    </footer>
+</body>
+
+</html>

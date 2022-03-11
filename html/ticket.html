@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOTHAWORN Nuttapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Page</title>
+    <link rel="stylesheet" href="../css/wholesite.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/ticket.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <img src="../image/filmreel.png" alt="the logo of Impact Cinema" title="displayed logo">
+        <h1>IMPACT CINEMA</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="nowshowing.html">NOW SHOWING</a></li>
+            <li><a href="ticket.html" class="disabled">TICKET</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <form method="GET" action="print.html">
+            <section>
+                <p>Cinema - Wong Tai Sin</p>
+                <p>Movie - Hot & Spicy Barbecue</p>
+                <p>12 April, Sun-9:00 AM</p>
+                <p>House 1</p>
+            </section>
+
+            <section>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td colspan="6" class="plan">SCREEN</td>
+                        </tr>
+                        <tr>
+                            <td class="row">A</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td class="row">B</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td class="row">C</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td class="row">D</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="plan">Seat</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Seat Booked</legend>
+                    <input type="text" id="seat" name="seat" value="A1,A2">
+                    <input type="submit" value="Confirm">
+                </fieldset>
+            </section>
+        </form>
+    </div>
+
+    <footer>
+        <p>2020 @Copyright of resources belong to corresponding copyright owners - fair use for education purpose</p>
+        <a href="home.html">Home</a>
+        <a href="design.html" target="_blank">Design</a>
+    </footer>
+
+    <script src="../javascript/movies.js"></script>
+    <script src="http://courses.cs.cityu.edu.hk/cs2204/cw3/cinemas.js"></script>
+    <script src="../javascript/ticket.js"></script>
+</body>
+
+</html>

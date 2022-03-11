@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOTHAWORN Nuttapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Showing Page</title>
+    <link rel="stylesheet" href="../css/wholesite.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/nowshowing.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <img src="../image/filmreel.png" alt="the logo of Impact Cinema" title="displayed logo">
+        <h1>IMPACT CINEMA</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="nowshowing.html" class="disabled">NOW SHOWING</a></li>
+            <li><a href="ticket.html">TICKET</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <section>
+            <label for="cinema">Select Cinema:</label>
+            <select name="cinema" id="cinema">
+                <option value="Wong Tai Sin" selected="selected">Impact Cinema - Wong Tai Sin</option>
+                <option value="Sha Tin">Impact Cinema - Sha Tin</option>
+                <option value="Kowloon Tong">Impact Cinema - Kowloon Tong</option>
+            </select>
+        </section>
+
+        <section>
+            
+                
+            
+        </section>
+
+        <section>
+            <dl>
+                <dt>Cinema Locations</dt>
+                <dd>
+                    <ul>
+                        <li>
+                            <img src="../image/wongtaisin.png" alt="Wong Tai Sin branch map image"
+                                title="Wong Tai Sin branch map">
+                            <p>Address: 999 Ching Tak Street, Wong Tai Sin, Hong Kong (marked with the Red Checkpoint)
+                            </p>
+                        </li>
+                        <li>
+                            <img src="../image/shatin.png" alt="Sha Tin branch map image" title="Sha Tin branch map">
+                            <p>Address: 999 Sha Tin Centre Street, Sha Tin, Hong Kong (marked with the Red Checkpoint)
+                            </p>
+                        </li>
+                        <li>
+                            <img src="../image/kowloontong.png" alt="Kowloon Tong branch map image"
+                                title="Kowloon Tong branch map">
+                            <p>Address: 999 Tat Chee Avenue, Kowloon Tong, Hong Kong (marked with the Red Checkpoint)
+                            </p>
+                        </li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+    </div>
+    
+    <footer>
+        <p>2020 @Copyright of resources belong to corresponding copyright owners - fair use for education purpose</p>
+        <a href="home.html">Home</a>
+        <a href="design.html" target="_blank">Design</a>
+    </footer>
+
+    <script src="../javascript/movies.js"></script>
+    <script src="http://courses.cs.cityu.edu.hk/cs2204/cw3/cinemas.js"></script>
+    <script src="../javascript/nowshowing.js"></script>
+</body>
+
+</html>

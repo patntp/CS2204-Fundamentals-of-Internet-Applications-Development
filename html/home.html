@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="NAOTHAWORN Nuttapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/wholesite.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../css/home.css" type="text/css" media="all">
+</head>
+
+<body>
+    <header>
+        <img src="../image/filmreel.png" alt="the logo of Impact Cinema" title="displayed logo">
+        <h1>IMPACT CINEMA</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="home.html" class="disabled">HOME</a></li>
+            <li><a href="nowshowing.html">NOW SHOWING</a></li>
+            <li><a href="ticket.html">TICKET</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <section id="video">
+            <h3>Popular Trailer: Into the Nature</h3>
+            <video controls>
+                <source src="https://courses.cs.cityu.edu.hk/cs2204/video/nature.mp4" type="video/mp4">
+                <h3>Your browser does not support this video format</h3>
+            </video>
+            <div>
+                <button onclick="vplay();">Play</button>
+                <button onclick="vstop();">Stop</button>
+            </div>
+        </section>
+
+        <h4>All Movies</h4>
+        <section id="nowshow">
+            <dl>
+                <dt>Now Showing</dt>
+                <dd>
+                    <ul id="nowlist">
+                        
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+
+        <section id="upcome">
+            <dl>
+                <dt>Upcoming</dt>
+                <dd>
+                    <ul id="upcominglist">
+                        
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>2020 @Copyright of resources belong to corresponding copyright owners - fair use for education purpose</p>
+        <a href="home.html">Home</a>
+        <a href="design.html" target="_blank">Design</a>
+    </footer>
+
+    <script src="../javascript/movies.js"></script>
+    <script src="../javascript/home.js"></script>
+</body>
+
+</html>
